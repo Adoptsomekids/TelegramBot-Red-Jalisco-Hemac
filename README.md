@@ -1,4 +1,7 @@
 # LISTADO DE COMANDOS PARA MICROTIK
+
+##Este manual introduce los comandos que son usados para realizar la siguientes funciones:
+
 .. danger::
     This version is still in development!
 
