@@ -88,8 +88,9 @@ Features
     - 🇧🇷 `@aiogram_br <https://t.me/aiogram_br>`_
 
 
-.. warning::
 
+
+    - 🇺🇿 `@aiogram_uz <https://t.me/aiogram_uz>`_
 - 🇺🇿 `@aiogram_uz <https://t.me/aiogram_uz>`_
     - 🇺🇿 `@aiogram_uz <https://t.me/aiogram_uz>`_
     
