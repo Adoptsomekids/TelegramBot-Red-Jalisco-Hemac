@@ -91,5 +91,8 @@ Features
 
 .. warning::
 
+    - 🇺🇿 `@aiogram_uz <https://t.me/aiogram_uz>`_
+- 🇺🇿 `@aiogram_uz <https://t.me/aiogram_uz>`_
+
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
