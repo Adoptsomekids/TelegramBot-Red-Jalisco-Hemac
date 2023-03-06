@@ -1,6 +1,7 @@
 # LISTADO DE COMANDOS PARA MICROTIK
-
-##Este manual introduce los comandos que son usados para realizar la siguientes funciones:
+   ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+   ![Badge](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)
+## Este manual introduce los comandos que son usados para realizar la siguientes funciones:
 
 .. danger::
     This version is still in development!
