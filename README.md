@@ -1,6 +1,4 @@
-####################
-aiogram |beta badge|
-####################
+# Unofficial Docker image of Telegram Bot API
 
 .. danger::
     This version is still in development!
