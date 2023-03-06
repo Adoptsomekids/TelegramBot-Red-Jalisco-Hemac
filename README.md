@@ -89,5 +89,7 @@ Features
     - 🇧🇷 `@aiogram_br <https://t.me/aiogram_br>`_
 
 
+.. warning::
+
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
