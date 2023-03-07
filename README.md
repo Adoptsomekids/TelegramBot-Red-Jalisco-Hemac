@@ -1,53 +1,21 @@
-# LISTADO DE COMANDOS PARA MICROTIK
+# LISTADO DE COMANDOS PARA MICROTIK 
    ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
    ![Badge](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)
 ## Este manual introduce los comandos que son usados para realizar la siguientes funciones:
 
-.. danger::
-    This version is still in development!
-
-.. image:: https://img.shields.io/pypi/l/aiogram.svg?style=flat-square
-    :target: https://opensource.org/licenses/MIT
-    :alt: MIT License
-
-.. image:: https://img.shields.io/pypi/status/aiogram.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/aiogram
-    :alt: PyPi status
-
-.. image:: https://img.shields.io/pypi/v/aiogram.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/aiogram
-    :alt: PyPi Package Version
-
-.. image:: https://img.shields.io/pypi/dm/aiogram.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/aiogram
-    :alt: Downloads
-
-.. image:: https://img.shields.io/pypi/pyversions/aiogram.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/aiogram
-    :alt: Supported python versions
-
-.. image:: https://img.shields.io/badge/dynamic/json?color=blue&logo=telegram&label=Telegram%20Bot%20API&query=%24.api.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Faiogram%2Faiogram%2Fdev-3.x%2F.butcher%2Fschema%2Fschema.json&style=flat-square
-    :target: https://core.telegram.org/bots/api
-    :alt: Telegram Bot API
-
-.. image:: https://img.shields.io/github/actions/workflow/status/aiogram/aiogram/tests.yml?branch=dev-3.x&style=flat-square
-    :target: https://github.com/aiogram/aiogram/actions
-    :alt: Tests
-
-.. image:: https://img.shields.io/codecov/c/github/aiogram/aiogram?style=flat-square
-    :target: https://app.codecov.io/gh/aiogram/aiogram
-    :alt: Codecov
-
-**aiogram** is a modern and fully asynchronous framework for
-`Telegram Bot API <https://core.telegram.org/bots/api>`_ written in Python 3.8 using
-`asyncio <https://docs.python.org/3/library/asyncio.html>`_ and
-`aiohttp <https://github.com/aio-libs/aiohttp>`_.
-
-Make your bots faster and more powerful!
-
-Documentation:
- - 🇺🇸 `English <https://docs.aiogram.dev/en/dev-3.x/>`_
- - 🇺🇦 `Ukrainian <https://docs.aiogram.dev/uk_UA/dev-3.x/>`_
+**Comandos Básicos**:
+ - `/?`: Visualización de ayuda (comandos disponibles desde la interfaz de MikroTik).
+ - `interface`: muestra y configura las interfaces de red.
+ - 
+ip address: muestra y configura las direcciones IP en las interfaces de red.
+ping: prueba la conectividad con una dirección IP.
+traceroute: muestra la ruta tomada por los paquetes a una dirección IP.
+route: muestra y configura las tablas de enrutamiento.
+firewall: muestra y configura las reglas de firewall.
+dhcp server: configura el servidor DHCP.
+user: muestra y configura los usuarios y grupos de usuarios.
+system: muestra y configura la configuración del sistema.
+wireless: configura las interfaces inalámbricas y las redes inalámbricas.
 
 
 .. danger::
