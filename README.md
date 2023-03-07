@@ -5,6 +5,12 @@
 
 **Comandos Básicos**:
  - `/?`: Visualización de ayuda (comandos disponibles desde la interfaz de MikroTik).
+ - `file print`: Muestra archivos almacenados en el router.
+ - `interface print`: Muestra datos de las interfaces disponibles (Incluye -> NAME, TYPE, ACTUAL-MTU, L2MTU , MAX-L2MTU, MAC-ADDRESS).
+ - `ip address print`: Visualizar dirección IP, red e interfaz.
+ - `user print`: Muestra lista de usuarios, grupos y direcciones (Incluyendo LAST-LOGGED-IN).
+ - `log print`: Imprime lista de logs del MT.
+ - `tool profile`: Muestra el uso de CPU de los procesos en ejecución
  - `interface`: muestra y configura las interfaces de red.
  - 
 ip address: muestra y configura las direcciones IP en las interfaces de red.
@@ -16,6 +22,12 @@ dhcp server: configura el servidor DHCP.
 user: muestra y configura los usuarios y grupos de usuarios.
 system: muestra y configura la configuración del sistema.
 wireless: configura las interfaces inalámbricas y las redes inalámbricas.
+
+**Comandos Avanzados**:
+ - `/?`: Visualización de ayuda (comandos disponibles desde la interfaz de MikroTik).
+ - `file print`: Muestra archivos almacenados en el router.
+ - `ip address print`: Visualizar dirección IP, red e interfaz.
+ - `interface`: muestra y configura las interfaces de red.
 
 
 .. danger::
