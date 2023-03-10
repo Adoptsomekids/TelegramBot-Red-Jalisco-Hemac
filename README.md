@@ -1,4 +1,6 @@
-# LISTADO DE COMANDOS PARA MICROTIK 
+# LISTADO DE COMANDOS PARA MICROTIK       
+![mikrotik](https://user-images.githubusercontent.com/83385717/224432078-4f3c3a2d-e1ba-4655-9539-53ac7d442de2.png)
+
    ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
    ![Badge](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)
 ## Este manual introduce los comandos que son usados para realizar la siguientes funciones:
