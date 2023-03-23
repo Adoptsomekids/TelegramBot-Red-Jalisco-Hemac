@@ -6,8 +6,9 @@
    ![Badge](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)
 ## Este manual introduce los comandos que son usados para realizar la siguientes funciones:
 
-**Comandos Básicos (Disponibles desde directorio raíz)**:
+**Sección 1: Comandos Básicos/Destacados (Disponibles desde directorio raíz)**:
  - `/?`: Visualización de ayuda (comandos disponibles desde la interfaz de MikroTik).
+ - `Tecla TAB`: IMPORTANTE--> Presionar cuando se escriba una palabra reservada de color azul para ver comandos adicionales o cuando se desee completar de forma automática algún otro comando.
  - `file print`: Muestra archivos almacenados en el router.
  - `interface print`: Muestra datos de las interfaces disponibles (Incluye -> NAME, TYPE, ACTUAL-MTU, L2MTU , MAX-L2MTU, MAC-ADDRESS).
  - `ip address print`: Visualizar dirección IP, red e interfaz.
@@ -17,7 +18,8 @@
  - `tool profile`: Muestra el uso de CPU de los procesos en ejecución
  - `certificate print`: Permite visualizar datos del certificado (Name, fingerprint, etc).
  - `snmp print`: Despliega informacion sobre SNMP.
- - 
+ - `ip arp print`: Adress, MAC-Adress & Interface.
+ 
 ip address: muestra y configura las direcciones IP en las interfaces de red.
 ping: prueba la conectividad con una dirección IP.
 traceroute: muestra la ruta tomada por los paquetes a una dirección IP.
@@ -28,13 +30,16 @@ user: muestra y configura los usuarios y grupos de usuarios.
 system: muestra y configura la configuración del sistema.
 wireless: configura las interfaces inalámbricas y las redes inalámbricas.
 
-**Comandos Avanzados (Disponibles desde /interface)**:
+**Sección 2:(Comandos disponibles desde `/interface`)**:
  - `/?`: Visualización de ayuda (comandos disponibles desde /interface).
+ - `Tecla TAB`: IMPORTANTE--> Presionar cuando se escriba una palabra reservada de color azul para ver comandos adicionales o cuando se quiera completar de forma automatica algún otro comando.
  - `print`: Imprime resumen de interfaz.
  - `ethernet print`: Imprime datos de interfaces ethernet.
  - `monitor-traffic`: Monitorea tráfico de la interfaz requerida.
  - `detect-internet print`: Muestra lista de interfaces de internet, LAN y WAN.
-
+ - `ipip print`: Interfaces de tunel IP.
+ - `vlan print`: Interfaces VLAN.
+ - `vrrp print`: Virtual Router Redundancy Protocol.
 
 .. danger::
 
