@@ -19,17 +19,8 @@
  - `tool profile`: Muestra el uso de CPU de los procesos en ejecución
  - `certificate print`: Permite visualizar datos del certificado (Name, fingerprint, etc).
  - `snmp print`: Despliega informacion sobre SNMP.
- - `ip arp print`: Adress, MAC-Adress & Interface.
- 
-ip address: muestra y configura las direcciones IP en las interfaces de red.
-ping: prueba la conectividad con una dirección IP.
-traceroute: muestra la ruta tomada por los paquetes a una dirección IP.
-route: muestra y configura las tablas de enrutamiento.
-firewall: muestra y configura las reglas de firewall.
-dhcp server: configura el servidor DHCP.
-user: muestra y configura los usuarios y grupos de usuarios.
-system: muestra y configura la configuración del sistema.
-wireless: configura las interfaces inalámbricas y las redes inalámbricas.
+
+---
 
 **Sección 2: (Comandos disponibles desde `/interface`)**:
  - `/?`: Visualización de ayuda (comandos disponibles desde /interface).
@@ -42,13 +33,21 @@ wireless: configura las interfaces inalámbricas y las redes inalámbricas.
  - `vlan print`: Interfaces VLAN.
  - `vrrp print`: Virtual Router Redundancy Protocol.
 
-..danger::
+---
 
-    **Breaking News:**
+ **Sección 3: (Comandos disponibles desde `/ip`)**:
+ - `/?`: Visualización de ayuda (comandos disponibles desde /interface).
+ - `Tecla TAB`: IMPORTANTE--> Presionar cuando se escriba una palabra reservada de color azul para ver comandos adicionales o cuando se quiera completar de forma automatica algún otro comando.
+ - `ip arp print`: Adress, MAC-Adress & Interface.
+ - `dhcp-client print`: Ajustes del cliente DHCP.
+ - `dhcp-server print`: Ajustes del servidor DHCP.
+ - `dns print`: Ajustes de DNS.
+ - `neighbor print`: Neighbors.
+ - `proxy print`: Puerto, cache-client, cache-server etc.
+ - `route print`: DST-ADDRESS, PREF-SRC, GATEWAY, DISTANCE, etc.
+ - `service print`: NAME, PORT, ADDRESS, CERTIFICATE, etc.
+ - `settings print`: Info about--> tcp-syncookies, icmp-rate-limit, ipv4-fast-path-active, etc.
 
-    *aiogram* 3.0 has breaking changes.
-
-    It breaks backward compatibility by introducing new breaking changes!
 
 
 .. warning::
