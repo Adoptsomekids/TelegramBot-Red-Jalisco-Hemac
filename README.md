@@ -7,7 +7,7 @@
    ![Badge](https://img.shields.io/pypi/status/aiogram.svg?style=flat-square)
 ## Este manual introduce los comandos que son usados para realizar la siguientes funciones:
 
-**Sección 1: Comandos Básicos / Destacados (Disponibles desde directorio raíz)**:
+**Sección 1: Comandos Generales / Destacados (Disponibles desde directorio raíz)**:
  - `/?`: Visualización de ayuda (comandos disponibles desde la interfaz de MikroTik).
  - `Tecla TAB`: IMPORTANTE--> Presionar cuando se escriba una palabra reservada de color azul para ver comandos adicionales o cuando se desee completar de forma automática algún otro comando.
  - `file print`: Muestra archivos almacenados en el router.
@@ -19,7 +19,9 @@
  - `tool profile`: Muestra el uso de CPU de los procesos en ejecución
  - `certificate print`: Permite visualizar datos del certificado (Name, fingerprint, etc).
  - `snmp print`: Despliega informacion sobre SNMP.
-
+ - `snmp community print`: Muestra: NAME, ADDRESSES, SECURITY, READ-ACCESS WRITE-ACCESS.
+ - `system backup save`: Hace una copia de seguridad de la configuración actual.
+ - `system backup load`: Carga una copia de seguridad previamente guardada.
 ---
 
 **Sección 2: (Comandos disponibles desde `/interface`)**:
@@ -31,7 +33,7 @@
  - `detect-internet print`: Muestra lista de interfaces de internet, LAN y WAN.
  - `ipip print`: Interfaces de tunel IP.
  - `vlan print`: Interfaces VLAN.
- - `vrrp print`: Virtual Router Redundancy Protocol.
+ - `vrrp print`:  NAME, INTERFACE, MAC-ADDRESS, VRID PRIORITY INTERVAL, VERSION V3-PROTOCOL.
 
 ---
 
