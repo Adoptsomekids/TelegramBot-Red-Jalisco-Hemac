@@ -22,6 +22,11 @@
  - `snmp community print`: Muestra: NAME, ADDRESSES, SECURITY, READ-ACCESS WRITE-ACCESS.
  - `system backup save`: Hace una copia de seguridad de la configuración actual.
  - `system backup load`: Carga una copia de seguridad previamente guardada.
+ - `system clock print`: Imprimir/cambiar fecha y hora del sistema.
+ - `system default-configuration print`: Carga una copia de seguridad previamente guardada.
+ - `system health print`: Voltage & temperature.
+ - `system history print`: Historial de comandos.
+ - `package print`: Paquetes del sistema.
 ---
 
 **Sección 2: (Comandos disponibles desde `/interface`)**:
