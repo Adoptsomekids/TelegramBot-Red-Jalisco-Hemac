@@ -16,17 +16,26 @@
  - `interface bridge print`: Despliega datos de interface bridge.
  - `user print`: Muestra lista de usuarios, grupos y direcciones (Incluyendo LAST-LOGGED-IN).
  - `log print`: Imprime lista de logs del MT.
+ - `system reboot`: Reiniciar el router.
+ - `system resource print`: Ver recursos del sistema.
  - `tool profile`: Muestra el uso de CPU de los procesos en ejecución
  - `certificate print`: Permite visualizar datos del certificado (Name, fingerprint, etc).
  - `snmp print`: Despliega informacion sobre SNMP.
  - `snmp community print`: Muestra: NAME, ADDRESSES, SECURITY, READ-ACCESS WRITE-ACCESS.
- - `system backup save`: Hace una copia de seguridad de la configuración actual.
- - `system backup load`: Carga una copia de seguridad previamente guardada.
- - `system clock print`: Imprimir/cambiar fecha y hora del sistema.
- - `system default-configuration print`: Carga una copia de seguridad previamente guardada.
- - `system health print`: Voltage & temperature.
- - `system history print`: Historial de comandos.
+
+---
+
+**Sección 1.1: Comandos del sistema (Disponibles desde `/system`)**:
+ - `/?`: Visualización de ayuda (comandos disponibles desde la interfaz de MikroTik).
+ - `Tecla TAB`: IMPORTANTE--> Presionar cuando se escriba una palabra reservada de color azul para ver comandos adicionales o cuando se desee completar de forma automática algún otro comando.
+ - `backup save`: Hace una copia de seguridad de la configuración actual.
+ - `backup load`: Carga una copia de seguridad previamente guardada.
+ - `clock print`: Imprimir/cambiar fecha y hora del sistema.
+ - `default-configuration print`: Carga una copia de seguridad previamente guardada.
+ - `health print`: Voltage & temperature.
+ - `history print`: Historial de comandos.
  - `package print`: Paquetes del sistema.
+ - `reboot`: Reiniciar el router.
 ---
 
 **Sección 2: (Comandos disponibles desde `/interface`)**:
