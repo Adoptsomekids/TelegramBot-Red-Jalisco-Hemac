@@ -16,11 +16,11 @@
  - `interface bridge print`: Despliega datos de interface bridge.
  - `user print`: Muestra lista de usuarios, grupos y direcciones (Incluyendo LAST-LOGGED-IN).
  - `log print`: Imprime lista de logs del MT.
+ - `export`: Visualizar o guardar un script.
  - `system reboot`: Reiniciar el router.
  - `system shutdown`: Apagar el router.
  - `system reset-configuration`: Limpia toda la configuración del router y setea la configuración por defecto.
  - `system upgrade download-all`: Actualizar el router a la version más actual disponible.
- - `system script export`: Visualizar o guardar un script.
  - `system resource print`: Ver recursos del sistema.
  - `tool profile`: Muestra el uso de CPU de los procesos en ejecución
  - `certificate print`: Permite visualizar datos del certificado (Name, fingerprint, etc).
@@ -42,7 +42,7 @@
  - `reboot`: Reiniciar el router.
  - `reset-configuration`: Limpia toda la configuración del router y setea la configuración por defecto.
  - `resource print`: Ver recursos del sistema.
- - `routerboard print`: Opciones de routerboard.
+ - `routerboard print`: Ver version de MikroTik.
  - `scheduler`: Programar scripts para que se ejecuten en cierto momento.
  - `script export`: Visualizar o guardar un script.
  - `shutdown`: Apagar el router.
