@@ -1,5 +1,7 @@
-## _Bot de Telegram para el proyecto estatal "Red Jalisco - Hemac"_
-## _Telegram bot for the state project "Red Jalisco - Hemac"_
+
+## _Bot de Telegram para el proyecto estatal [Red Jalisco](https://red.jalisco.gob.mx)_
+## _Telegram bot for the state project [Red Jalisco](https://red.jalisco.gob.mx)_
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=black)
 ---
 ![Red-Jalisco-Logo-color](https://github.com/Adoptsomekids/TelegramBot-Red-Jalisco-Hemac/assets/83385717/0a7fbdf7-746f-4866-ab67-b03fcd4a8e82)
 
