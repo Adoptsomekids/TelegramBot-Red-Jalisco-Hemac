@@ -12,9 +12,9 @@
 ### _Descripción general del proyecto:_ 
 ### _Chat Bot programado en python que puede ser gestionado desde la aplicación de mensajería centralizada "Telegram" utilizando únicamente el token del Bot previamente creado desde la GUI de la app. El bot desarrollado tiene la capacidad de la asignación de turnos a distintos operadores cada que se realiza una petición desde la aplicación del usuario_
 
-   ![botexm](https://github.com/Adoptsomekids/TelegramBot-Red-Jalisco-Hemac/assets/83385717/5822b3dd-32d0-40bf-a36b-fd18acc97512)
+   ![botexm](https://github.com/Adoptsomekids/TelegramBot-Red-Jalisco-Hemac/assets/83385717/9b1912ce-984c-4aaa-84f3-91ea145e3221)
+   ![Supervisores exm](https://github.com/Adoptsomekids/TelegramBot-Red-Jalisco-Hemac/assets/83385717/e814ddf5-0c74-4fd4-97c1-13e6f6ef5a0d)
 
-![Supervisores exm](https://github.com/Adoptsomekids/TelegramBot-Red-Jalisco-Hemac/assets/83385717/debd8c2e-6439-4f2a-b067-a3ae63a2101f)
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
